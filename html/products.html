@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/products.css" />
+    <link rel="stylesheet" href="../Css/index.css" />
+    <script src="../Js/product.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="space-background">
+    <header class="navbar">
+      <img src="../logo/logo.png" alt="Gadget Galaxy Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path
+            d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+          ></path>
+        </svg>
+        <span class="cart-count">0</span>
+      </div>
+    </header>
+
+    <!-- Glittering star background layer -->
+    <div class="stars"></div>
+
+    <main class="products-hero">
+      <h1>Explore Our <span>Galaxy</span> of Gadgets</h1>
+
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">
+          All Products
+        </button>
+        <button class="filter-btn" data-filter="smartphones">
+          Smartphones
+        </button>
+        <button class="filter-btn" data-filter="laptops">
+          Backup Chargers and Laptops
+        </button>
+        <button class="filter-btn" data-filter="audio">Audio</button>
+        <button class="filter-btn" data-filter="M&K">
+          Mouse and KeyBoards
+        </button>
+        <button class="filter-btn" data-filter="cameras">Cameras</button>
+        <button class="filter-btn" data-filter="smart_watches">
+          Smart Watches
+        </button>
+      </div>
+
+      <div class="card-grid">
+        <a href="#" class="card" data-category="smart_watches">
+          <div
+            class="background"
+            style="background-image: url(../imgs/sm_watches\(6\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Smart Watches</p>
+            <h2 class="heading">Stellar Watch S6</h2>
+            <p class="price">$299.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="smart_watches">
+          <div
+            class="background"
+            style="background-image: url(../imgs/sm_watches\(7\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Smart Watches</p>
+            <h2 class="heading">Nebula Timepiece</h2>
+            <p class="price">$349.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="smart_watches">
+          <div
+            class="background"
+            style="background-image: url(../imgs/sm_watches\(8\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Smart Watches</p>
+            <h2 class="heading">Galaxy Fit Pro</h2>
+            <p class="price">$259.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="smart_watches">
+          <div
+            class="background"
+            style="background-image: url(../imgs/sm_watches\(9\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Smart Watches</p>
+            <h2 class="heading">Cosmo Band 2</h2>
+            <p class="price">$199.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="smart_watches">
+          <div
+            class="background"
+            style="background-image: url(../imgs/sm_watches\(10\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Smart Watches</p>
+            <h2 class="heading">Astro Watch X</h2>
+            <p class="price">$399.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="smart_watches">
+          <div
+            class="background"
+            style="background-image: url(../imgs/sm_watches\(11\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Smart Watches</p>
+            <h2 class="heading">Lunar Pulse</h2>
+            <p class="price">$279.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(7\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Photon Cam 7</h2>
+            <p class="price">$549.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(8\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Astro Lens 8</h2>
+            <p class="price">$599.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(9\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Nebula Snap</h2>
+            <p class="price">$499.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(10\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Cosmic Zoom</h2>
+            <p class="price">$649.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(11\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Stellar Shot</h2>
+            <p class="price">$699.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(12\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Orbit Cam 12</h2>
+            <p class="price">$799.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="cameras">
+          <div
+            class="background"
+            style="background-image: url(../imgs/cameras\(13\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Cameras</p>
+            <h2 class="heading">Luna Capture</h2>
+            <p class="price">$899.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(5\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Meteor Mouse 5</h2>
+            <p class="price">$49.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(6\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Comet Keyboard</h2>
+            <p class="price">$69.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(7\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Astro Mouse 7</h2>
+            <p class="price">$59.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(8\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Lunar Keys</h2>
+            <p class="price">$89.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(9\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Nebula Board</h2>
+            <p class="price">$79.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(10\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Cosmic Clicker</h2>
+            <p class="price">$39.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="M&K">
+          <div
+            class="background"
+            style="background-image: url(../imgs/mouse_keyBoar\(11\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Mouse & Keyboards</p>
+            <h2 class="heading">Stellar Keys</h2>
+            <p class="price">$59.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="smartphones">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Smartphones</p>
+            <h2 class="heading">Nova S1</h2>
+            <p class="price">$799.99</p>
+          </div>
+        </a>
+
+        <!-- Product 2 -->
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">Nebula Ultrabook</h2>
+            <p class="price">$1,499.99</p>
+          </div>
+        </a>
+
+        <!-- Product 3 -->
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Cosmic Earbuds Pro</h2>
+            <p class="price">$249.99</p>
+          </div>
+        </a>
+
+        <!-- Product 4 -->
+        <a href="#" class="card" data-category="wearables">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Wearables</p>
+            <h2 class="heading">Galaxy Watch 5</h2>
+            <p class="price">$399.99</p>
+          </div>
+        </a>
+
+        <!-- Product 5 -->
+        <a href="#" class="card" data-category="gaming">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Gaming</p>
+            <h2 class="heading">Vortex Gaming Console</h2>
+            <p class="price">$499.99</p>
+          </div>
+        </a>
+
+        <!-- Product 6 -->
+        <a href="#" class="card" data-category="smartphones">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Smartphones</p>
+            <h2 class="heading">Stellar Mini</h2>
+            <p class="price">$699.99</p>
+          </div>
+        </a>
+
+        <!-- Product 7 -->
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">Cosmos Creator Pro</h2>
+            <p class="price">$2,299.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(1\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 1</h2>
+            <p class="price">$89.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(2\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 2</h2>
+            <p class="price">$99.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(3\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 3</h2>
+            <p class="price">$109.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(4\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 4</h2>
+            <p class="price">$119.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(5\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 5</h2>
+            <p class="price">$129.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(6\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 6</h2>
+            <p class="price">$139.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(7\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 7</h2>
+            <p class="price">$149.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/chargers\(8\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">PowerCharge 8</h2>
+            <p class="price">$159.99</p>
+          </div>
+        </a>
+
+        <!-- Product 8 -->
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/speakers\(10\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Sonic Boom 10</h2>
+            <p class="price">$199.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/speakers\(11\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Sonic Boom 11</h2>
+            <p class="price">$209.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/speakers\(9\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Sonic Boom 9</h2>
+            <p class="price">$189.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/speakers\(8\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Sonic Boom 8</h2>
+            <p class="price">$179.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/speakers\(7\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Sonic Boom 7</h2>
+            <p class="price">$169.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/speakers\(6\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Sonic Boom 6</h2>
+            <p class="price">$159.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/headphones\(1\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Galaxy Headphones 1</h2>
+            <p class="price">$89.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/headphones\(2\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Galaxy Headphones 2</h2>
+            <p class="price">$99.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/headphones\(3\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Galaxy Headphones 3</h2>
+            <p class="price">$109.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/headphones\(4\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Galaxy Headphones 4</h2>
+            <p class="price">$119.99</p>
+          </div>
+        </a>
+
+        <a href="#" class="card" data-category="audio">
+          <div
+            class="background"
+            style="background-image: url(../imgs/headphones\(5\).png)"
+          ></div>
+          <div class="content">
+            <p class="category">Audio</p>
+            <h2 class="heading">Galaxy Headphones 5</h2>
+            <p class="price">$129.99</p>
+          </div>
+        </a>
+
+        <!-- Product 9 -->
+        <a href="#" class="card" data-category="wearables">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Wearables</p>
+            <h2 class="heading">Fitness Tracker X</h2>
+            <p class class="price">$149.99</p>
+          </div>
+        </a>
+
+        <!-- Product 10 -->
+        <a href="#" class="card" data-category="gaming">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Gaming</p>
+            <h2 class="heading">Nebula VR Headset</h2>
+            <p class="price">$349.99</p>
+          </div>
+        </a>
+
+        <!-- Product 11 -->
+        <a href="#" class="card" data-category="smartphones">
+          <div
+            class="background"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+            "
+          ></div>
+          <div class="content">
+            <p class="category">Smartphones</p>
+            <h2 class="heading">Photon Z Fold</h2>
+            <p class="price">$1,799.99</p>
+          </div>
+        </a>
+
+        <!-- Product 12 -->
+        <a href="#" class="card" data-category="laptops">
+          <div
+            class="background"
+            style="background-image: url(../imgs/img1.jpg)"
+          ></div>
+          <div class="content">
+            <p class="category">Laptops</p>
+            <h2 class="heading">Quantum Notebook</h2>
+            <p class="price">$899.99</p>
+          </div>
+        </a>
+
+        <!-- Product 13-39 would follow the same pattern -->
+        <!-- For brevity, I've included 12 products but you would add 27 more following the same structure -->
+      </div>
+    </main>
+  </body>
+</html>
