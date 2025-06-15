@@ -351,6 +351,7 @@ main {
 .review-card p {
   font-style: italic;
   margin-bottom: 20px;
+  margin-top: 50px;
   line-height: 1.6;
 }
 
