@@ -2,7 +2,8 @@
 
 A modern, space-themed frontend display for a tech e-commerce website. This is a **UI-only project** with minimum backend functionality.
 
-![Uploading Products-06-16-2025_07_01_AM (1).png…]()
+![Products-06-16-2025_07_01_AM (1)](https://github.com/user-attachments/assets/f560a0a4-72c0-471c-869a-fd91f0d4f078)
+
 
 
 ## Features
