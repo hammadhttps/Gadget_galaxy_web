@@ -2,6 +2,9 @@
 
 A modern, space-themed frontend display for a tech e-commerce website. This is a **UI-only project** with minimum backend functionality.
 
+![Uploading Products-06-16-2025_07_01_AM (1).png…]()
+
+
 ## Features
 
 - Space-themed responsive design
