@@ -24,5 +24,5 @@ A modern, space-themed frontend display for a tech e-commerce website. This is a
 
 1. Clone repo:
    ```bash
-   git clone https://github.com/your-username/gadget-galaxy.git
+   git clone https://github.com/hammadhttps/Gadget_galaxy_web.git
    ```
